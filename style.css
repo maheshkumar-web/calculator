@@ -1,0 +1,72 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h2{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 29, 34);
+}
+
+.calculator{
+
+
+    box-shadow: rgba(255, 254, 254, 0.996) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    background-color: rgb(83, 119, 137);
+   padding: 20px;
+   border-radius: 2vh;
+}
+
+.calculator form input{
+    border: 0;
+    width: 40px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    height: 40px;
+    border-radius: 10px;
+    margin: 3px;
+    font-size: 22px;
+}
+
+form .dip{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+
+}
+
+
+body > div > div > form > div.dip > input[type=text]{
+    background-color:  rgb(247, 201, 201);
+    border: none;
+    color: rgb(30, 20, 20);
+    border-color: rgb(83, 119, 137);
+}
+
+
+form .dip input{
+    text-align: right;
+    flex: 1;
+}
+
+body > div > div > form > div:nth-child(6) > input.ok{
+    width: 90px;
+}
+
+
+.calculator form input:hover{
+    background-color: rgb(188, 194, 194);
+}
+.calculator form input:active{
+    background-color: rgb(160, 221, 221);
+}

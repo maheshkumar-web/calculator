@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <!-- custome css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+
+
+</head>
+
+<body>
+    <h2>hissab karo apna</h2>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="dip">
+                    <input type="text" name="disply" id="">
+                </div>
+                <div>
+                    <input type="button" value="C" onclick="disply.value =''">
+                    <input type="button" value="D" onclick="disply.value = disply.value.toString().slice(0,-1)">
+                    <input type="button" value="." onclick="disply.value +='.'">
+                    <input type="button" value="/" onclick="disply.value +='/'">
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="disply.value +='7'">
+                    <input type="button" value="8"  onclick="disply.value +='8'">
+                    <input type="button" value="9"  onclick="disply.value +='9'">
+                    <input type="button" value="*" onclick="disply.value +='*'">
+                </div>
+                <div>
+                    <input type="button" value="4"  onclick="disply.value +='4'">
+                    <input type="button" value="5"  onclick="disply.value +='5'">
+                    <input type="button" value="6"  onclick="disply.value +='6'">
+                    <input type="button" value="-" onclick="disply.value +='-'">
+                </div>
+                <div>
+                    <input type="button" value="1"  onclick="disply.value +='1'">
+                    <input type="button" value="2"  onclick="disply.value +='2'">
+                    <input type="button" value="3"  onclick="disply.value +='3'">
+                    <input type="button" value="+" onclick="disply.value +='+'">
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="disply.value +='00'">
+                    <input type="button" value="0" onclick="disply.value +='0'">
+                    <input type="button" value="=" onclick="disply.value =eval(disply.value)"  class="ok">
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
